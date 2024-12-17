@@ -14,21 +14,21 @@ The Adventure Game is a text-based exploration game written in C. It runs in the
 ## How to Play
 To play the game, type in commands at the prompt. Here is a list of supported commands:
 
-- **move `<direction>`**: Move to a different room. Replace `<direction>` with `north`, `south`, `east`, or `west`.
-  - Example: `move north`
+- **move <direction>**: Move to a different room. Replace <direction> with north, south, east, or west.
+  - Example: move north
 
 - **look**: See the current room's description, any items in the room, and if there are enemies present.
 
-- **pickup `<item>`**: Pick up an item from the room. Replace `<item>` with the name of the item.
-  - Example: `pickup key`
+- **pickup <item>**: Pick up an item from the room. Replace <item> with the name of the item.
+  - Example: pickup key
 
 - **inventory**: Show the items you currently have in your inventory.
 
-- **save `<filename>`**: Save the current game state to a file.
-  - Example: `save mygame.txt`
+- **save <filename>**: Save the current game state to a file.
+  - Example: save mygame.txt
 
-- **load `<filename>`**: Load a saved game from a file.
-  - Example: `load mygame.txt`
+- **load <filename>**: Load a saved game from a file.
+  - Example: load mygame.txt
 
 - **list**: Show all available saved game files in the current directory.
 
@@ -40,7 +40,7 @@ To compile the game, use the provided Makefile:
 ```bash
 make
 ```
-This will compile the game and create an executable file named `adventure_game`.
+This will compile the game and create an executable file named adventure_game.
 
 ### Running
 After compilation, you can run the game with this command:
