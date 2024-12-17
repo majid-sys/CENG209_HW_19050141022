@@ -37,22 +37,18 @@ To play the game, type in commands at the prompt. Here is a list of supported co
 ## How to Compile and Run the Game
 ### Compiling
 To compile the game, use the provided Makefile:
-```bash
+
 make
-```
+
 This will compile the game and create an executable file named adventure_game.
 
 ### Running
 After compilation, you can run the game with this command:
-```bash
 ./adventure_game
-```
 
 ### Cleaning Up
 To clean up the compiled files, use:
-```bash
 make clean
-```
 
 ## Example Session
 Here is an example of what gameplay might look like:
